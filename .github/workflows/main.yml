@@ -31,7 +31,7 @@ jobs:
     - name: Archive production artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: react-bundles
+        name: nextjs-chunks
         path: |
-          build
-          !build/**/*.md
+          .next
+          !.next/**/*.md
