@@ -14,7 +14,7 @@ env:
   ECR_REPOSITORY: hello-world-ecs-example           # set this to your Amazon ECR repository name
   ECS_SERVICE: hello-world-ecs-example-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: hello-world-ecs-example                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: 5b5c2ead331f4fa49366c0feed114d16 # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: family-of-hello-world-ecs-example-tasks:7 # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: hello-world-container           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
