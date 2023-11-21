@@ -28,5 +28,4 @@ jobs:
       with:
         name: nextjs-chunks
         path: |
-          .next
           !.next/**/*.md
