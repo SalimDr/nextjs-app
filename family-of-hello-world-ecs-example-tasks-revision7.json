@@ -4,7 +4,7 @@
         {
             "name": "hello-world-container",
             "image": "615879554790.dkr.ecr.ca-central-1.amazonaws.com/hello-world-ecs-example:2023-11-10T08-23-02",
-            "cpu": 0,
+            "cpu": 256,
             "portMappings": [
                 {
                     "containerPort": 8080,
@@ -52,7 +52,7 @@
         "FARGATE"
     ],
     "cpu": "256",
-    "memory": "512",
+    "memory": "5120",
     "registeredAt": "2023-11-10T08:23:12.744Z",
     "registeredBy": "arn:aws:iam::615879554790:root",
     "tags": [
