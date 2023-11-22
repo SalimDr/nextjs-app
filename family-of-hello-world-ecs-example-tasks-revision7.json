@@ -52,7 +52,7 @@
         "FARGATE"
     ],
     "cpu": "256",
-    "memory": "5120",
+    "memory": "2560",
     "registeredAt": "2023-11-10T08:23:12.744Z",
     "registeredBy": "arn:aws:iam::615879554790:root",
     "tags": [
